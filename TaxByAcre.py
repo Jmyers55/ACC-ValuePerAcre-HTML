@@ -32,7 +32,7 @@ layer = pdk.Layer(
 r = pdk.Deck(layers=[layer], initial_view_state=view)
 
 # Render the map
-r.to_html('ValuePerAcre_map.html')
+r.to_html('index.html')
 
 print("Your map is ready!")
 
